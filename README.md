@@ -6,6 +6,31 @@ vue-package-template 基于`vue3`实现的`vue组件`、`vue插件`打包项目�
 
 你可以参考 [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout/)
 
+## 项目结构
+
+```
+├─ .prettierrc           # prettier 格式配置文件
+├─ LICENSE               # 开源协议
+├─ package.json
+├─ README.en.md
+├─ README.md
+├─ release.sh            # npm发布脚本
+├─ rollup.config.ts      # rollup 配置文件
+├─ tsconfig.json         # ts配置文件
+├─ yarn.lock
+│
+├─example                # 案例，用于测试src编写的代码
+│  ├── index.html
+│  ├── webpack.config.js # 编写组件、插件
+│  └─src
+│    ├── App.vue         # yarn dev渲染的页面
+│    ├── main.ts         # 导入src目录的模块
+├─public
+└─src                    # 编写组件、插件
+  ├── index.ts           # 导出所编写组件、插件
+  ├── shims-vue.d.ts
+```
+
 ## 安装
 
 1. 启动`example`
