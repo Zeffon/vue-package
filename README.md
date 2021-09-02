@@ -4,6 +4,8 @@
 
 vue-package-template 基于`vue3`实现的`vue组件`、`vue插件`打包项目模板，由`rollup`作为打包。
 
+你可以参考 [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout/)
+
 ## 安装
 
 1. 启动`example`

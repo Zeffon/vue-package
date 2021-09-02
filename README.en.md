@@ -4,6 +4,8 @@
 
 vue-package-template is a packaged project template based on `vue components` and `vue plugins` implemented by `vue3`, packaged by `rollup`.
 
+You can learn from [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout/)
+
 ## Install
 
 1. Start `example`
