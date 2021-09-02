@@ -28,7 +28,6 @@
   ],
   "scripts": {
     "dev": "webpack-dev-server --config example/webpack.config.js --host 127.0.0.1",
-    "serve": "vue-cli-service serve",
     "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "lint": "vue-cli-service lint",
     "start": "rollup -c rollup.config.ts -w",
