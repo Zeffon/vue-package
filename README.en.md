@@ -1,8 +1,8 @@
 [简体中文](./README.md) | English
 
-# vue-package-template
+# vue-package
 
-vue-package-template is a packaged project template based on `vue components` and `vue plugins` implemented by `vue3`, packaged by `rollup`.
+vue-package is a packaged project template based on `vue components` and `vue plugins` implemented by `vue3`, packaged by `rollup`.
 
 You can learn from [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout/)
 

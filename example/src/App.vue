@@ -7,7 +7,7 @@ import { defineComponent, ref } from 'vue'
 
 export default defineComponent({
   setup() {
-    const name = ref('vue-package-template')
+    const name = ref('vue-package')
     return {
       name
     }

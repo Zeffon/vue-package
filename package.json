@@ -1,5 +1,5 @@
 {
-  "name": "vue-package-template",
+  "name": "vue-package",
   "version": "1.0.0",
   "description": "The vue project session of the permission system timed out to log out",
   "author": {
@@ -7,8 +7,8 @@
     "email": "ZeffonWu@gmail.com",
     "url": "https://www.yuque.com/zeffon"
   },
-  "main": "dist/vue-package-template.umd.js",
-  "module": "dist/vue-package-template.es5.js",
+  "main": "dist/vue-package.umd.js",
+  "module": "dist/vue-package.es5.js",
   "typings": "dist/types/index.d.ts",
   "files": [
     "dist/*",
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zeffon/vue-package-template.git"
+    "url": "https://github.com/Zeffon/vue-package.git"
   },
   "engines": {
     "node": ">=6.0.0"
@@ -64,7 +64,6 @@
     "sass-loader": "^8.0.2",
     "typescript": "~4.1.5",
     "vue-loader": "^16.0.0-rc.1",
-    "vue-template-compiler": "^2.6.14",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
   },
