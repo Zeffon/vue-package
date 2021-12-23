@@ -15,7 +15,7 @@ const banner =
   ' */'
 
 export default {
-  input: `src/index.ts`,
+  input: `packages/index.ts`,
   output: [
     {
       file: pkg.main,
@@ -34,7 +34,7 @@ export default {
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
   external: [],
   watch: {
-    include: 'src/**'
+    include: 'packages/**'
   },
   plugins: [
     // Allow json resolution

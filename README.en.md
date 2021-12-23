@@ -26,7 +26,7 @@ You can learn from [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout
 │    ├── App.vue         # yarn dev - Page rendered at runtime
 │    ├── main.ts         # Import modules from the src directory
 ├─public
-└─src                    # Write components, plugins
+└─packages                    # Write components, plugins
   ├── index.ts           # Export the written components and plug-ins
   ├── shims-vue.d.ts
 ```
@@ -39,13 +39,13 @@ You can learn from [`vue-auto-logout`](https://github.com/Zeffon/vue-auto-logout
 $ yarn dev
 ```
 
-2. Compile the code in `src`
+2. Compile the code in `packages`
 
 ```
 $ yarn build
 ```
 
-3. Package the code in `src`
+3. Package the code in `packages`
 
 ```
 $ yarn start

@@ -1,5 +1,5 @@
 import App from './App.vue'
-import plugin from '../../src/index' // 引用src导出的模块进行测试
+import plugin from '../../packages/index' // 引用packages导出的模块进行测试
 import { createApp } from 'vue'
 
 const app = createApp(App)
